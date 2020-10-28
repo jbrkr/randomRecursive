@@ -12,7 +12,7 @@
   
     limit = 200;
   
-    size = Math.round(document.body.clientWidth - (document.body.clientWidth * 0.10));
+    size = Math.round(document.body.clientWidth - (document.body.clientWidth * 0.30));
   
     N = size * (window.devicePixelRatio || 1);
   
