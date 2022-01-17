@@ -2,15 +2,15 @@
     var LtAttractor, N, Sketch, canvas, context, cos, density, iterations, limit, log, max, mouseX, mouseY, round, sensitivity, sin, size, start,
       bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
   
-    sensitivity = 0.02;
+    sensitivity = 0.01;
   
-    iterations = 8000;
+    iterations = 10000;
   
-    density = 20;
+    density = 3;
   
     start = 0;
   
-    limit = 200;
+    limit = 300;
   
     size = Math.round(document.body.clientWidth - (document.body.clientWidth * 0.30));
   
